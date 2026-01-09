@@ -2,7 +2,6 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
     "dotenv": "^17.2.1",
-    "netlify-lambda": "^2.0.16",
     "tailwindcss": "^4.1.12"
   },
   "scripts": {
