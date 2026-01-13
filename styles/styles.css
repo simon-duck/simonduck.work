@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   overflow: auto;
@@ -8,37 +12,76 @@ body {
   color: #ffffff;
 }
 
+/* Improve link accessibility */
+a {
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
 input[type="text"],
 select,
 textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 8px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   background-color: #f2ede1; /* Background color */
   color: #086375; /* Text color */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #086375;
+  box-shadow: 0 0 0 3px rgba(8, 99, 117, 0.1);
+  transform: translateY(-1px);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(8, 99, 117, 0.5);
 }
 
 .container {
-  border-radius: 25px;
+  border-radius: 16px;
   background-color: #f8ac89;
-  padding: 20px;
+  padding: 24px;
   margin: auto;
   margin-top: 15vh;
+  box-shadow: 0 1px 3px rgba(8, 99, 117, 0.1), 0 10px 20px rgba(8, 99, 117, 0.08);
 }
 
 .mySlides {
-  width: 50vw;
+  width: calc(60vw - 5rem);
   height: 55vh;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 16px;
   border-color: #086375;
   border: solid;
-  border-width: 5px;
+  border-width: 3px;
   box-sizing: border-box;
+}
+
+/* Mobile optimization for slideshow */
+@media (orientation: portrait) {
+  .mySlides {
+    width: 85vw;
+    height: 50vh;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mySlides {
+    width: 90vw;
+    height: auto;
+    aspect-ratio: 4/3;
+    max-height: 350px;
+  }
 }
 
 .textHighlight {
