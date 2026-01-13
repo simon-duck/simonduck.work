@@ -35,7 +35,7 @@ textarea {
 input[type="text"]:focus,
 select:focus,
 textarea:focus {
-  outline: none;
+  outline: 2px solid transparent;
   border-color: #086375;
   box-shadow: 0 0 0 3px rgba(8, 99, 117, 0.1);
   transform: translateY(-1px);
