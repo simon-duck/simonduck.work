@@ -12,8 +12,6 @@ class SocialFooter extends HTMLElement {
         <div class="flex w-[4vw] h-[4vh] min-w-[30px] justify-between p-[0.2vw] drop-shadow-md mr-10vw ml-20vw transition-transform duration-200 hover:scale-110">
           <a href="https://bsky.app/profile/robotriddims.bsky.social">
             <img
-              width="40"
-              height="40"
               style="width: 100%; height: 100%"
               src="social/bluesky-blue-round-circle-logo-24461.svg"
               alt="Bluesky Logo"
@@ -26,8 +24,6 @@ class SocialFooter extends HTMLElement {
         <div class="flex w-[4vw] h-[4vh] min-w-[30px] justify-between p-[0.2vw] drop-shadow-md mr-5vw ml-5vw transition-transform duration-200 hover:scale-110">
           <a href="https://www.facebook.com/its.duck">
             <img
-              width="40"
-              height="40"
               style="width: 100%; height: 100%"
               src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
               alt="Facebook Logo"
@@ -40,8 +36,6 @@ class SocialFooter extends HTMLElement {
         <div class="flex w-[4vw] h-[4vh] min-w-[30px] justify-between p-[0.2vw] drop-shadow-md mr-5vw ml-5vw transition-transform duration-200 hover:scale-110">
           <a href="https://robotriddims.bandcamp.com/">
             <img
-              width="40"
-              height="40"
               style="width: 100%; height: 100%"
               src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Bandcamp-button-bc-circle-aqua.svg"
               alt="Bandcamp Logo"
@@ -52,8 +46,6 @@ class SocialFooter extends HTMLElement {
         <div class="flex w-[4vw] h-[4vh] min-w-[30px] justify-between p-[0.2vw] drop-shadow-md transition-transform duration-200 hover:scale-110">
           <a href="https://www.instagram.com/robotriddims/">
             <img
-              width="40"
-              height="40"
               style="width: 100%; height: 100%"
               src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
               alt="Instagram Logo"
@@ -67,8 +59,6 @@ class SocialFooter extends HTMLElement {
             href="https://open.spotify.com/artist/6jnqwrnUc0SLpT7wthJXmv?si=wTL_xnkBTAOs-rrVXYLg_A/&utm_source=copy-link"
           >
             <img
-              width="40"
-              height="40"
               style="width: 100%; height: 100%"
               src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
               alt="Spotify Logo"
