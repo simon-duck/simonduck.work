@@ -38,13 +38,7 @@ To run the project locally:
 
     Then visit `http://localhost:8000` in your browser.
 
-## Contributing
 
-Pull requests are welcome! If you find a bug or have a suggestion, please [open an issue](https://github.com/the-duckchild/Projects-Website/issues) first to discuss your idea.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 Maintained by Simon Duck • [simonduck.work](https://simonduck.work/)
